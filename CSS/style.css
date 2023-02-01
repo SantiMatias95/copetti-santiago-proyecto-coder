@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    width: 200px;
+}
+
+.imagen-footer {
+    width: 100px;
+}
+
+.imagenBebe1 {
+    width: 100vw;
+}
+
+.header__listaMenu {
+    font-size: 25px;
+    list-style: none;
+    position: relative;
+    top: -32px;
+    left: 400px;
+    background-color: red;
+    width: auto;
+    border: 1px black solid;
+
+
+
+
+}
+
+.header__listaMenu a {
+    color: black;
+    text-decoration: none;
+}
+
+.header__listaMenu--activo {
+    font-weight: bold;
+}
+
+.header__listaMenu li {
+    display: inline;
+}
+
+.bloqueDeTexto {
+    width: 250px;
+
+
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    font-size: 15px;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header__listaMenu li {
+    margin: 30px;
+}
+
+.procedimientos li {
+    width: 500px;
+    display: inline;
+    color: white;
+
+
+
+}
+
+
+.imagenesProcedimientos__ecocardiograma {
+    width: 300px;
+    border: 1px black solid;
+    ;
+
+}
+
+.imagenesProcedimientos__electrocardiograma {
+    width: 500px;
+    border: 1px black solid;
+    margin: 20px;
+}
+
+.imagenesProcedimientos__ergometria {
+    width: 500px;
+    border: 1px black solid;
+}
+
+.imagenesProcedimientos {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+.procedimientos__ecocardiograma {
+    position: relative;
+    top: -35px;
+    left: 173px;
+
+}
+
+.procedimientos__electrocardiograma {
+    position: relative;
+    top: -50px;
+    left: 438px;
+}
+
+.procedimientos__ergometria {
+    position: relative;
+    top: -35px;
+    left: 860px;
+}
+
+footer {
+    background-color: rgb(161, 161, 161);
+}
+
+
+
+h1 a {
+    text-decoration: none;
+    color: rgb(250, 46, 46);
+}
