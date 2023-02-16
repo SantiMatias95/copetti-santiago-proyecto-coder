@@ -27,4 +27,21 @@
     display: block;
     margin: 0 auto;
     padding: 2rem;
+    max-width: 100%;
+}
+
+// MEDI@ ELECTRO
+@media (max-width: 480px) {
+    .fondo-electrocardiograma {
+        height: 25vh;
+    }
+
+    .fondo-electrocardiograma h1 {
+        font-size: 40px;
+    }
+
+    .main-electro p {
+        font-size: 16px;
+        margin: 50px;
+    }
 }

@@ -1,13 +1,13 @@
-// ESTILO PAGINA ERGOMETRIA
-.fondo-ergometria {
-    background-image: url(https://i.ytimg.com/vi/1fn1CWE6K80/maxresdefault.jpg);
+// ESTILO CONTACTO
+.fondo-contacto {
+    background-image: url(https://consultoracis.com.ar/wp-content/uploads/2021/02/banner-contacto.jpg);
     height: 50vh;
     background-size: cover;
     background-position: center;
     max-width: 100%;
 }
 
-.fondo-ergometria h1 {
+.fondo-contacto h1 {
     text-align: center;
     color: white;
     position: relative;
@@ -16,42 +16,42 @@
     max-width: 100%;
 }
 
-.main-ergometria p {
+.main-contacto p {
     max-width: 100%;
     padding: .5rem;
-    margin: 2rem;
+    margin: 1rem;
     text-align: justify;
     margin-left: 10rem;
     margin-right: 10rem;
 }
 
-.iframe-ergometria {
-
-    display: block;
-    margin: 0 auto;
-    padding: 2rem;
+.main-contacto input {
     max-width: 100%;
-}
-
-h2 {
-    margin: 2rem;
+    padding: .5rem;
+    text-align: justify;
     margin-left: 10rem;
+    margin-right: 10rem;
 }
 
-// MEDI@ ERGOMETRIA
+// MEDI@ CONTACTO
 @media (max-width: 480px) {
-    .fondo-ergometria {
+    .fondo-contacto {
         height: 25vh;
     }
 
-    .fondo-ergometria h1 {
+    .fondo-contacto h1 {
         font-size: 50px;
     }
 
-    .main-ergometria p {
+    .main-contacto p {
         font-size: 16px;
         margin: 50px;
-
-
     }
+
+    .main-contacto input {
+        max-width: 50%;
+        margin: 10%;
+        margin-bottom: 0;
+    }
+
 }

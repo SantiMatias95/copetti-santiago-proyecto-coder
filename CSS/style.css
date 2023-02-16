@@ -1,4 +1,5 @@
 .header {
+  max-width: 100%;
   background-color: #EDF2F4;
   display: flex;
   flex-direction: row;
@@ -21,11 +22,18 @@
   font-size: 35px; }
 
 /* MEDIA @ MOBILE LAST */
-@media (max-width: 426px) {
+@media (max-width: 480px) {
   .header {
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  .header img {
+    width: 100px; }
+  .header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px; } }
 
 /* ESTILO FOOTER */
 footer {
@@ -52,10 +60,12 @@ footer ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; } }
+    text-align: center; }
+  footer img {
+    width: 50px; } }
 
 /* CONTENIDO PRINCIPAL */
-.banner-hero {
+.fondo-index {
   background-image: url("https://uel.unipd.it/content/wp-content/uploads/2022/06/CHD-visual.jpg");
   height: 100vh;
   background-size: cover;
@@ -64,10 +74,11 @@ footer ul {
   justify-content: center;
   align-items: flex-end; }
 
-.banner-hero p {
-  width: 50vh;
+.fondo-index p {
+  width: 35%;
+  height: 100%;
   font-size: 20px;
-  text-align: center; }
+  text-align: justify; }
 
 .servicios img {
   width: 75%;
@@ -76,13 +87,32 @@ footer ul {
   box-shadow: 15px 15px 15px black;
   margin: 25px; }
 
+.servicios {
+  text-align: center; }
+
 /* GROLLA DE SERVICIOS */
 .servicios-grid {
   display: grid;
   grid-gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
-  margin-bottom: 100px; }
+  text-align: justify;
+  margin-bottom: 15rem; }
+
+@media (max-width: 480px) {
+  .fondo-index {
+    height: 25vh; }
+  .fondo-index p {
+    font-size: 10px;
+    margin: 1px; }
+  .servicios-grid {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: justify;
+    margin-bottom: 15rem; }
+  .servicios img {
+    max-width: 100%;
+    height: 50%; } }
 
 /* ESTILO PAGINA DE "SERVICIOS" */
 .fondo-ecocardiograma {
@@ -98,39 +128,39 @@ footer ul {
   top: 50%;
   font-size: 100px; }
 
-.serv-flex {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 50px; }
+.main-eco p {
+  max-width: 100%;
+  padding: .5rem;
+  margin: 2rem;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 10rem; }
 
-.serv-flex p {
+.iframe-eco {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem; }
+
+.main-eco li {
   max-width: 75vh;
   line-height: 2rem;
-  text-indent: 1rem;
-  padding: 10; }
-
-.serv-flex li {
-  width: 75vh;
-  line-height: 2rem; }
+  margin-left: 10rem;
+  margin-right: 10rem;
+  align-items: center; }
 
 @media (max-width: 480px) {
+  .fondo-ecocardiograma {
+    height: 25vh; }
   .fondo-ecocardiograma h1 {
-    text-align: center;
-    color: white;
-    position: relative;
-    top: 50%;
     font-size: 50px; }
-  .serv-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    text-align: justify; }
-  iframe {
-    width: 100%; } }
+  .main-eco p {
+    font-size: 16px;
+    margin: 50px; }
+  .main-eco li {
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 25px; } }
 
 .fondo-ergometria {
   background-image: url(https://i.ytimg.com/vi/1fn1CWE6K80/maxresdefault.jpg);
@@ -158,11 +188,21 @@ footer ul {
 .iframe-ergometria {
   display: block;
   margin: 0 auto;
-  padding: 2rem; }
+  padding: 2rem;
+  max-width: 100%; }
 
 h2 {
   margin: 2rem;
   margin-left: 10rem; }
+
+@media (max-width: 480px) {
+  .fondo-ergometria {
+    height: 25vh; }
+  .fondo-ergometria h1 {
+    font-size: 50px; }
+  .main-ergometria p {
+    font-size: 16px;
+    margin: 50px; } }
 
 .fondo-electrocardiograma {
   background-image: url(https://img.freepik.com/fotos-premium/nino-haciendo-electrocardiograma-corazon-diagnostico-enfermedad-cardiaca-ninos_173815-17453.jpg?w=2000);
@@ -188,4 +228,57 @@ h2 {
 .iframe-electro {
   display: block;
   margin: 0 auto;
-  padding: 2rem; }
+  padding: 2rem;
+  max-width: 100%; }
+
+@media (max-width: 480px) {
+  .fondo-electrocardiograma {
+    height: 25vh; }
+  .fondo-electrocardiograma h1 {
+    font-size: 40px; }
+  .main-electro p {
+    font-size: 16px;
+    margin: 50px; } }
+
+.fondo-contacto {
+  background-image: url(https://consultoracis.com.ar/wp-content/uploads/2021/02/banner-contacto.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%; }
+
+.fondo-contacto h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50%;
+  font-size: 100px;
+  max-width: 100%; }
+
+.main-contacto p {
+  max-width: 100%;
+  padding: .5rem;
+  margin: 1rem;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+
+.main-contacto input {
+  max-width: 100%;
+  padding: .5rem;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+
+@media (max-width: 480px) {
+  .fondo-contacto {
+    height: 25vh; }
+  .fondo-contacto h1 {
+    font-size: 50px; }
+  .main-contacto p {
+    font-size: 16px;
+    margin: 50px; }
+  .main-contacto input {
+    max-width: 50%;
+    margin: 10%;
+    margin-bottom: 0; } }
