@@ -1,0 +1,38 @@
+// ESTILO PAGINA ERGOMETRIA
+.fondo-ergometria {
+    background-image: url(https://i.ytimg.com/vi/1fn1CWE6K80/maxresdefault.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+.fondo-ergometria h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    font-size: 100px;
+    max-width: 100%;
+}
+
+.main-ergometria p {
+    max-width: 100%;
+    padding: .5rem;
+    margin: 2rem;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.iframe-ergometria {
+
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2 {
+    margin: 2rem;
+    margin-left: 10rem;
+}

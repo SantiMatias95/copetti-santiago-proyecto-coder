@@ -1,0 +1,35 @@
+/* ESTILO FOOTER */
+footer {
+    background-color: rgb(161, 161, 161);
+}
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer li {
+    margin: 1rem;
+}
+
+footer ul {
+    list-style: none;
+}
+
+// @MEDIA FOOTER (MOBILE LAST)
+@media (max-width: 426px) {
+    .footer-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}

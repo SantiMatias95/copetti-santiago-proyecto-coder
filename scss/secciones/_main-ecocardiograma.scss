@@ -1,0 +1,60 @@
+/* ESTILO PAGINA DE "SERVICIOS" */
+.fondo-ecocardiograma {
+    background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20201209140953_1200.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo-ecocardiograma h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    font-size: 100px;
+}
+
+.serv-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.serv-flex p {
+    max-width: 75vh;
+    line-height: 2rem;
+    text-indent: 1rem;
+    padding: 10;
+}
+
+.serv-flex li {
+    width: 75vh;
+    line-height: 2rem;
+}
+
+// MEDIA@ MAIN-ECOCARDIOGRAMA
+@media (max-width: 480px) {
+    .fondo-ecocardiograma h1 {
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 50%;
+        font-size: 50px;
+    }
+
+    .serv-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        text-align: justify;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+}

@@ -19,3 +19,173 @@
   text-decoration: none;
   color: black;
   font-size: 35px; }
+
+/* MEDIA @ MOBILE LAST */
+@media (max-width: 426px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+/* ESTILO FOOTER */
+footer {
+  background-color: #a1a1a1; }
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+footer img {
+  width: 100px; }
+
+footer li {
+  margin: 1rem; }
+
+footer ul {
+  list-style: none; }
+
+@media (max-width: 426px) {
+  .footer-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; } }
+
+/* CONTENIDO PRINCIPAL */
+.banner-hero {
+  background-image: url("https://uel.unipd.it/content/wp-content/uploads/2022/06/CHD-visual.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
+
+.banner-hero p {
+  width: 50vh;
+  font-size: 20px;
+  text-align: center; }
+
+.servicios img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+  box-shadow: 15px 15px 15px black;
+  margin: 25px; }
+
+/* GROLLA DE SERVICIOS */
+.servicios-grid {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  margin-bottom: 100px; }
+
+/* ESTILO PAGINA DE "SERVICIOS" */
+.fondo-ecocardiograma {
+  background-image: url(https://img.europapress.es/fotoweb/fotonoticia_20201209140953_1200.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center; }
+
+.fondo-ecocardiograma h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50%;
+  font-size: 100px; }
+
+.serv-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px; }
+
+.serv-flex p {
+  max-width: 75vh;
+  line-height: 2rem;
+  text-indent: 1rem;
+  padding: 10; }
+
+.serv-flex li {
+  width: 75vh;
+  line-height: 2rem; }
+
+@media (max-width: 480px) {
+  .fondo-ecocardiograma h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    font-size: 50px; }
+  .serv-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: justify; }
+  iframe {
+    width: 100%; } }
+
+.fondo-ergometria {
+  background-image: url(https://i.ytimg.com/vi/1fn1CWE6K80/maxresdefault.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%; }
+
+.fondo-ergometria h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50%;
+  font-size: 100px;
+  max-width: 100%; }
+
+.main-ergometria p {
+  max-width: 100%;
+  padding: .5rem;
+  margin: 2rem;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+
+.iframe-ergometria {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem; }
+
+h2 {
+  margin: 2rem;
+  margin-left: 10rem; }
+
+.fondo-electrocardiograma {
+  background-image: url(https://img.freepik.com/fotos-premium/nino-haciendo-electrocardiograma-corazon-diagnostico-enfermedad-cardiaca-ninos_173815-17453.jpg?w=2000);
+  height: 50vh;
+  background-size: cover;
+  background-position: center; }
+
+.fondo-electrocardiograma h1 {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50%;
+  font-size: 100px; }
+
+.main-electro p {
+  max-width: 100%;
+  padding: .5rem;
+  margin: 2rem;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 10rem; }
+
+.iframe-electro {
+  display: block;
+  margin: 0 auto;
+  padding: 2rem; }

@@ -1,0 +1,30 @@
+// ESTILO ELECTROCARDIOGRAMA
+.fondo-electrocardiograma {
+    background-image: url(https://img.freepik.com/fotos-premium/nino-haciendo-electrocardiograma-corazon-diagnostico-enfermedad-cardiaca-ninos_173815-17453.jpg?w=2000);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo-electrocardiograma h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    font-size: 100px;
+}
+
+.main-electro p {
+    max-width: 100%;
+    padding: .5rem;
+    margin: 2rem;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.iframe-electro {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
+}
