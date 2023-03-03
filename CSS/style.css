@@ -85,6 +85,18 @@ footer ul {
   margin-left: 10rem;
   margin-right: 10rem; }
 
+.imagen-mapa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px; }
+
+.imagen-mapa img {
+  width: 100vh;
+  background-size: auto;
+  margin: 35px;
+  margin-bottom: 50px; }
+
 .servicios img {
   width: 75%;
   height: 75%;
@@ -112,6 +124,20 @@ footer ul {
   .parrafo {
     font-size: 16px;
     margin: 50px; }
+  .parrafo img {
+    margin: 50%;
+    width: 40%;
+    height: 40%; }
+  .imagen-mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; }
+  .imagen-mapa img {
+    width: 70vh;
+    margin: 20px; }
+  .imagen-mapa iframe {
+    width: 100%; }
   .servicios-grid {
     display: grid;
     grid-gap: 5rem;
