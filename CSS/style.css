@@ -21,6 +21,9 @@
   color: black;
   font-size: 35px; }
 
+.header a:hover {
+  text-decoration: underline; }
+
 /* MEDIA @ MOBILE LAST */
 @media (max-width: 480px) {
   .header {
@@ -54,7 +57,7 @@ footer li {
 footer ul {
   list-style: none; }
 
-@media (max-width: 426px) {
+@media (max-width: 480px) {
   .footer-flex {
     display: flex;
     flex-direction: column;
@@ -66,19 +69,21 @@ footer ul {
 
 /* CONTENIDO PRINCIPAL */
 .fondo-index {
-  background-image: url("https://uel.unipd.it/content/wp-content/uploads/2022/06/CHD-visual.jpg");
-  height: 100vh;
+  background-image: url("https://www.imcnet.com.ar/wp-content/uploads/2015/06/cardiologia_pediatrica_header.jpg");
+  height: 50vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end; }
 
-.fondo-index p {
-  width: 35%;
-  height: 100%;
-  font-size: 20px;
-  text-align: justify; }
+.parrafo {
+  max-width: 100%;
+  padding: .5rem;
+  margin: 2rem;
+  text-align: justify;
+  margin-left: 10rem;
+  margin-right: 10rem; }
 
 .servicios img {
   width: 75%;
@@ -89,6 +94,9 @@ footer ul {
 
 .servicios {
   text-align: center; }
+
+.servicios h2 {
+  margin: auto; }
 
 /* GROLLA DE SERVICIOS */
 .servicios-grid {
@@ -101,9 +109,9 @@ footer ul {
 @media (max-width: 480px) {
   .fondo-index {
     height: 25vh; }
-  .fondo-index p {
-    font-size: 10px;
-    margin: 1px; }
+  .parrafo {
+    font-size: 16px;
+    margin: 50px; }
   .servicios-grid {
     display: grid;
     grid-gap: 5rem;
