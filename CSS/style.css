@@ -118,6 +118,9 @@ footer ul {
   text-align: justify;
   margin-bottom: 15rem; }
 
+.servicios a:hover {
+  width: 100%; }
+
 @media (max-width: 480px) {
   .fondo-index {
     height: 25vh; }
