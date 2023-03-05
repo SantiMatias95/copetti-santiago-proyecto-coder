@@ -59,8 +59,10 @@
     margin-bottom: 15rem;
 }
 
-.servicios a:hover {
-    width: 100%;
+.servicios:hover img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+
 }
 
 // MEDI@ INDEX
@@ -109,5 +111,4 @@
         height: 50%;
     }
 
-    sfasfasfa
 }

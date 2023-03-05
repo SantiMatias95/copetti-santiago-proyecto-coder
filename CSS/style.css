@@ -118,8 +118,9 @@ footer ul {
   text-align: justify;
   margin-bottom: 15rem; }
 
-.servicios a:hover {
-  width: 100%; }
+.servicios:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); }
 
 @media (max-width: 480px) {
   .fondo-index {
@@ -214,6 +215,10 @@ footer ul {
   font-size: 100px;
   max-width: 100%; }
 
+.main-ergometria h2 {
+  margin: auto;
+  text-align: center; }
+
 .main-ergometria p {
   max-width: 100%;
   padding: .5rem;
@@ -273,6 +278,9 @@ h2 {
     height: 25vh; }
   .fondo-electrocardiograma h1 {
     font-size: 40px; }
+  .main-electro h2 {
+    margin: auto;
+    text-align: center; }
   .main-electro p {
     font-size: 16px;
     margin: 50px; } }
@@ -291,6 +299,11 @@ h2 {
   top: 50%;
   font-size: 100px;
   max-width: 100%; }
+
+.main-contacto h2 {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center; }
 
 .main-contacto p {
   max-width: 100%;
